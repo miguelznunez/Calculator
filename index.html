@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <input id="userInput" placeholder="0">
+      <br>
+      <button class="btn" onclick="press(1)">1</button>
+      <button class="btn" onclick="press(2)">2</button>
+      <button class="btn" onclick="press(3)">3</button>
+      <button style="background:#ffb84d;" class="btn" onclick="press('+')">+</button>
+      <br>
+      <button class="btn" onclick="press(4)">4</button>
+      <button class="btn" onclick="press(5)">5</button>
+      <button class="btn" onclick="press(6)">6</button>
+      <button style="background: #ffcc80;" class="btn" onclick="press('-')">-</button>
+      <br>
+      <button class="btn" onclick="press(7)">7</button>
+      <button class="btn" onclick="press(8)">8</button>
+      <button class="btn" onclick="press(9)">9</button>
+      <button style="background: #ffe0b3;" class="btn" onclick="press('*')">*</button>
+      <br>
+      <button class="btn" onclick="press('.')">.</button>
+      <button class="btn" onclick="press(0)">0</button>
+      <button class="btn" onclick="erase()">C</button>
+      <button style="background: #fff5e6;" class="btn" onclick="press('/')">/</button>
+      <br>
+      <button class="btnEqual" onclick="equal()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
