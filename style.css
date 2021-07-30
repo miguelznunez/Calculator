@@ -21,7 +21,7 @@ body{
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
 }
 
-#userInput{
+#user_input{
   box-sizing: border-box;
   width: 100%;
   padding: 40px 5px;
@@ -53,18 +53,12 @@ body{
   background: whitesmoke;
 }
 
-.btn:hover, .btnEqual:hover{
-  background-color: rgba(128, 128, 128, 0.1);
-}
+.btn:hover, .btnEqual:hover{background-color: rgba(128, 128, 128, 0.1);}
 
 @media(max-width:480px){
-  .btn{
-    width: 23.4%;
-  }
+  .btn{width: 23.4%;}
 }
 
 @media(max-width:320px){
-  .btn{
-    width: 23%;
-  }
+  .btn{width: 23%;}
 }
