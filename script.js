@@ -1,17 +1,16 @@
 const userInput =  document.querySelector("#user_input");
-var expression = "";
 
-press = (num) => {
-  expression += num;
-  userInput.value = expression;
+press = (digit) => {
+  if(!userInput.value)
+  userInput.value = "";
+  
+  userInput.value = userInput.value += digit;
 }
 
 equal = () => {
-  userInput.value = eval(expression);
-  expression = "";
+  userInput.value = eval(userInput.value);
 }
 
 erase = () => {
-  expression = "";
-  userInput.value = expression;
+  userInput.value = "";
 }
